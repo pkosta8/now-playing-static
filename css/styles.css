@@ -47,7 +47,7 @@ figure {
 
 /* NAVIGATION styles */
 .site-logo {
-  position: relative;
+  position: fixed;
   top: 1rem;
   left: 1rem;
   width: 80px;
@@ -57,14 +57,16 @@ figure {
 }
 
 .site-nav {
-  position: absolute;
+  position: fixed;
   bottom: 0;
+  top: 0;
   left: 0;
-  right: 100%;
-  width: %;
-  z-index: -index: 0;
+  right: 0;
+  width: 8%;
+  z-index: 100;
   background-color: #ffffff;
 }
+
 
 .site-nav-list,
 .footer-nav-list {
@@ -73,10 +75,11 @@ figure {
   list-style-type: none;
 }
 
+
 .site-nav-item {
   float: left;
-  width: 20%;
-  height: 60px;
+  top: 5%;
+  height: 64px;
   padding: 0.75em;
   font-family: "Montserrat", "Source Code Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.6em;
@@ -196,19 +199,17 @@ figure {
   margin: 0;
 }
 
-
-
 /* -------------------------------------------------- */
 /* RESPONSIVE STYLES: TABLET */
 /* -------------------------------------------------- */
-@media ( min-width: 768px ) {
-	/* GENERIC STYLES */
-  <meta name="viewport" content="initial-scale=1.0">
+@media ( min-width: 600px ) {
+
+}
+
 
 /* -------------------------------------------------- */
 /* RESPONSIVE STYLES: DESKTOP */
 /* -------------------------------------------------- */
-@media ( min-width: 960px ) {
-<meta name="viewport" content="initial-scale=1.0">
 
-}
+@media ( min-width: 960px )
+{
