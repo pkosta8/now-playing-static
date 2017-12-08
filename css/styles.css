@@ -47,7 +47,7 @@ figure {
 
 /* NAVIGATION styles */
 .site-logo {
-  position: fixed;
+  position: relative;
   top: 1rem;
   left: 1rem;
   width: 80px;
@@ -57,12 +57,12 @@ figure {
 }
 
 .site-nav {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
-  right: 0;
-  width: 100%;
-  z-index: 100;
+  right: 100%;
+  width: %;
+  z-index: -index: 0;
   background-color: #ffffff;
 }
 
@@ -194,4 +194,21 @@ figure {
 
 .about > p {
   margin: 0;
+}
+
+
+
+/* -------------------------------------------------- */
+/* RESPONSIVE STYLES: TABLET */
+/* -------------------------------------------------- */
+@media ( min-width: 768px ) {
+	/* GENERIC STYLES */
+  <meta name="viewport" content="initial-scale=1.0">
+
+/* -------------------------------------------------- */
+/* RESPONSIVE STYLES: DESKTOP */
+/* -------------------------------------------------- */
+@media ( min-width: 960px ) {
+<meta name="viewport" content="initial-scale=1.0">
+
 }
