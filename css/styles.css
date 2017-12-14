@@ -234,6 +234,35 @@ padding: 0.8em;
 
 }
 
+
+/* nav bar spacing*/
+.site-nav-list {
+margin-top: 90%;
+
+}
+
+/* nav bar visible*/
+.site-nav {
+width: 10%;
+height: 100%;
+
+z-index: 90;
+
+}
+
+
+/* resized nav bar to fit content space*/
+
+.site-nav-item {
+width: 100%;
+
+}
+
+
+
+
+
+
   /* -------------------------------------------------- */
 /* RESPONSIVE STYLES: DESKTOP */
 /* -------------------------------------------------- */
