@@ -202,12 +202,39 @@ figure {
 /* -------------------------------------------------- */
 /* RESPONSIVE STYLES: TABLET */
 /* -------------------------------------------------- */
-@media ( min-width: 600px ) {
+@media ( min-width: 600px) {
+
 
 }
 
+/* remove bottom from nav bar */
 
-/* -------------------------------------------------- */
+body {
+padding-bottom: 0;
+
+}
+/* move over to provide space for nav bar side*/
+
+
+
+main {
+margin-left: 10%
+
+}
+
+/* resize logo to fit on nav bar*/
+.site-logo {
+width: 10%;
+height: 10%;
+margin: 0 auto;
+
+top: 0;
+left: 0;
+padding: 0.8em;
+
+}
+
+  /* -------------------------------------------------- */
 /* RESPONSIVE STYLES: DESKTOP */
 /* -------------------------------------------------- */
 
