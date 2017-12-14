@@ -295,12 +295,29 @@ float: right;
 }
 
 
-}
-
 
   /* -------------------------------------------------- */
 /* RESPONSIVE STYLES: DESKTOP */
 /* -------------------------------------------------- */
 
-@media ( min-width: 960px )
-{
+@media ( min-width: 992px ){
+
+}
+
+.movie:nth-child(1n+2) {
+width: 33.333333333%;
+float:   left;
+
+}
+
+/* scrolling effect from poster to overview*/
+
+.movie:nth-child(1n+2) .movie-overview {
+display: none;
+
+}
+
+.movie:nth-child(1n+2) .movie-poster {
+display: block;
+
+}
