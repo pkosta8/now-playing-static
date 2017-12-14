@@ -62,7 +62,7 @@ figure {
   top: 0;
   left: 0;
   right: 0;
-  width: 8%;
+  width: 100%;
   z-index: 100;
   background-color: #ffffff;
 }
@@ -202,13 +202,14 @@ figure {
 /* -------------------------------------------------- */
 /* RESPONSIVE STYLES: TABLET */
 /* -------------------------------------------------- */
-@media ( min-width: 600px) {
+
+/*tablet resolultion max */
+@media ( min-width: 768px) {
 
 
 }
 
 /* remove bottom from nav bar */
-
 body {
 padding-bottom: 0;
 
@@ -260,14 +261,41 @@ width: 100%;
 
 
 
-  /* movie rezize to fit window */
+/* movie rezize to fit window */
 
 .movie-overview {
 display: block;
 
-  }
+}
 
 
+footer {
+margin-left: 10%;
+
+}
+
+.footer-nav {
+float: left;
+padding: 30px;
+
+}
+
+.footer-nav, .about {
+width: 50%;
+background-color: black;
+color: white;
+
+}
+
+
+
+.about {
+float: right;
+
+}
+
+
+}
 
 
   /* -------------------------------------------------- */
