@@ -260,6 +260,13 @@ width: 100%;
 
 
 
+  /* movie rezize to fit window */
+
+.movie-overview {
+display: block;
+
+  }
+
 
 
 
