@@ -302,8 +302,6 @@ float: right;
 
 @media ( min-width: 992px ){
 
-}
-
 .movie:nth-child(1n+2) {
 width: 33.333333333%;
 float:   left;
@@ -317,7 +315,26 @@ display: none;
 
 }
 
+.movie:nth-child(1n+2) .movie-backdrop {
+display: none;
+
+}
+
+
 .movie:nth-child(1n+2) .movie-poster {
 display: block;
+
+}
+
+/*copyright*/
+
+footer {
+clear: both;
+
+}
+
+.footer-nav-item {
+margin-right: 2em;
+}
 
 }
